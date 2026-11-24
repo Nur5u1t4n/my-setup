@@ -1,0 +1,22 @@
+# Secrets and local-only configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+secrets/
+private/
+
+# Local machine exports and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and OS noise
+.vscode/
+.idea/
